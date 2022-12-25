@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "serversleep",
+  "version": "1.19",
+  "name": "ServerSleep",
+  "description": " Changes playersSleepingPercentage to 50% ",
+  "authors": [
+    "aninucsalas"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/server50sleep",
+    "sources": ""
+  },
+  "license": "MIT License",
+  "icon": "assets/serversleep/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "xyz.aninuscsalas.serversleep.ServersleepMod"
+    ],
+    "client": [
+      "xyz.aninuscsalas.serversleep.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
