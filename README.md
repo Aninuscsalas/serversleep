@@ -5,3 +5,6 @@
 
 Changes a single gamerule:
 > gamerule playersSleepingPercentage 50
+
+https://www.curseforge.com/minecraft/mc-mods/serversleep
+https://modrinth.com/datapack/serversleep
